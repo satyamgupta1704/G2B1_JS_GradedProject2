@@ -1,0 +1,181 @@
+.actions-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.small-btns {
+    width: 200px
+}
+
+.search-input {
+    max-width: 400px;
+    margin: 8px 10px !important;
+}
+
+.resume-container {
+    width: 90%;
+    display: none;
+    margin-top: 50px;
+    height: auto;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px 2px #888888;
+    border-radius: 0.25rem;
+}
+
+.resume-header {
+    background-color: rgba(210, 250, 255, 0.938);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 250px;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    border-radius: 0.25rem;
+}
+
+.header-center {
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+.candidate-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.position {
+    font-weight: bold;
+    bottom: 25px;
+    position: absolute;
+}
+
+.resume-body {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.basics {
+    width: 23%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.other-details {
+    width: 67%;
+    padding: 10px 10px 10px 0px;
+}
+
+p,
+h3,
+h2,
+h1,
+h4 {
+    margin: 0px;
+    padding: 0px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.work-ex {
+    margin-top: 0px;
+}
+
+.basics {
+    text-align: right;
+    background-color: rgb(230, 192, 204);
+    height: fit-content;
+}
+
+.basics .titles {
+    font-weight: bold;
+    font-size: 15px;
+    background-color: grey;
+    text-align: left;
+    padding: 5px;
+}
+
+.innerDetail {
+    padding: 10px 0px 10px 40px
+}
+
+.no-result {
+    display: none;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    margin-top: 200px;
+    height: auto;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px 2px #888888;
+}
+
+.details-container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.no-result-image {
+    width: 150px;
+    height: 200px;
+    padding-right: 40px;
+}
+
+.no-result-text {
+    font-size: 30px;
+}
+
+.personal-info,
+.tech-skills,
+.hobbies {
+    margin-bottom: 15px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+
+/*Full-width input fields */
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #686464;
+    box-sizing: border-box;
+    border-radius: 0.25rem;
+}
+
+
+/* Set a style for all buttons */
+button {
+    background-color: #11c583e7;
+    color: rgb(14, 13, 13);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 0.25rem;
+}
